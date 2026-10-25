@@ -12,9 +12,9 @@ Kelompok [nomor], [nama kampus / program studi]
 | No | Nama | NIM | Tugas |
 |----|------|-----|-------|
 | 1 | [I Gede Dalem Putrayana] | [2515091008] | Struktur HTML Beranda dan Edukasi |
-| 2 | [Nama Anggota 2] | [NIM] | CSS, layout, media queries |
-| 3 | [Nama Anggota 3] | [NIM] | Konten Panduan dan Artikel, riset sumber |
-| 4 | [Nama Anggota 4] | [NIM] | GitHub, README, pengujian responsif |
+| 2 | [I Gede Galang Yogista] | [2515091087] | CSS, layout, media queries |
+| 3 | [Ketut Agus Sugiantara] | [2515091052] | Konten Panduan dan Artikel, riset sumber |
+| 4 | [I Komang Tri Adnyana] | [2515091039] | GitHub, README, pengujian responsif |
 
 ## Deskripsi Website
 
