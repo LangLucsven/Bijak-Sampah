@@ -1,6 +1,6 @@
 # Bijak Sampah
 
-Website Edukasi Pengelolaan Sampah Rumah Tangga
+Website Edukasi Pengelolaan Sampah Rumah Tangga Dengan Nama Bijak Sampah
 **SDG 11 (Kota dan Permukiman Berkelanjutan) dan SDG 12 (Konsumsi dan Produksi Bertanggung Jawab)**
 
 Proyek UTS Mata Kuliah Pemrograman Web: *Responsive Educational Website*.
