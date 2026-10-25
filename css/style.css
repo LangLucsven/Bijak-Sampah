@@ -184,28 +184,20 @@ tr:last-child td { border-bottom: 0; }
 /* 7) MEDIA QUERIES (responsif)
    Tablet (<= 900px) dan smartphone (<= 640px). */
 @media (max-width: 900px) {
+  .grid-2 { grid-template-columns: 1fr; }
+  section { padding: 2.75rem 0; }
+  .hero { padding: 3rem 0; }
+
+  /* Navigasi berubah menjadi menu turun (hamburger) */
   .tombol-menu { display: block; }
-
-/* Tombol jadi kuning saat menu terbuka */
-.cek-menu:checked + .tombol-menu {
-  background: #f3c93c; color: #2b2400; border-color: #f3c93c;
-}
-
-.menu {
-  display: none;
-  position: absolute; left: 0; right: 0; top: 100%;
-  flex-direction: column; gap: .25rem;
-  background: #ffffff;                       /* panel putih, beda jelas dari header hijau */
-  padding: .75rem 1rem 1rem;
-  border-bottom: 4px solid #f3c93c;
-  box-shadow: 0 14px 24px rgba(0,0,0,.3);
-}
-.cek-menu:checked ~ .menu { display: flex; }
-
-.menu li + li { border-top: 1px solid var(--garis); }
-.menu a { padding: .9rem 1rem; border-radius: 10px; font-size: 1.05rem; color: var(--hijau-tua); }
-.menu a:hover { background: var(--hijau-muda); color: var(--hijau-tua); }
-.menu a[aria-current="page"] { background: var(--hijau-tua); color: #ffffff; }
+  .menu {
+    display: none; position: absolute; left: 0; right: 0; top: 100%;
+    flex-direction: column; background: var(--hijau-tua); padding: .5rem 1rem 1rem;
+    border-top: 1px solid rgba(255,255,255,.2);
+  }
+  .cek-menu:checked ~ .menu { display: flex; }
+  .menu a { padding: .8rem 1rem; }
+  .bar-nav { position: relative; }
 }
 @media (max-width: 640px) {
   body { font-size: 1.02rem; }
