@@ -63,9 +63,9 @@ section { padding: 3.5rem 0; }
 .merek { display: flex; align-items: center; gap: .6rem; color: var(--putih); text-decoration: none; font-weight: 700; font-size: 1.15rem; }
 .merek img { width: 36px; height: 36px; }
 .menu { display: flex; gap: .25rem; list-style: none; margin: 0; padding: 0; }
-.menu a { display: block; padding: .5rem .85rem; border-radius: 8px; color: #e8f1de; text-decoration: none; font-weight: 500; }
+.menu a { display: block; padding: .8rem .85rem; border-radius: 8px; color: #e8f1de; text-decoration: none; font-weight: 500;  border-bottom: 1px solid rgba(255,255,225,.2);}
 .menu a:hover { background: rgba(255,255,255,.12); color: var(--putih); }
-.menu a[aria-current="page"] { background: var(--krem); color: var(--hijau-tua); font-weight: 700; }
+.menu a[aria-current="page"] { background: var(--krem); color: var(--hijau-tua); font-weight: 700; border-bottom-color:#000000; }
 
 .cek-menu { position: absolute; opacity: 0; pointer-events: none; }
 .tombol-menu { display: none; cursor: pointer; padding: .5rem .75rem; border: 2px solid #9cc47a; border-radius: 8px; color: var(--putih); font-weight: 600; }
