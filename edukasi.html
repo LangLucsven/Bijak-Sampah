@@ -39,41 +39,77 @@
       <div class="wadah">
         <div class="judul-seksi">
           <h2>Tiga jenis sampah rumah tangga</h2>
-          <p>Warna wadah di bawah mengikuti kebiasaan umum pemilahan. Warna di tempatmu bisa berbeda, jadi ikuti aturan setempat bila ada.</p>
+          <p>Klik salah satu gambar untuk melihat penjelasannya. Warna wadah mengikuti kebiasaan umum pemilahan; ikuti aturan setempat bila berbeda.</p>
         </div>
-        <div class="grid">
-          <article class="kartu kartu-organik">
-            <img class="ikon" src="images/icon-organik.svg" alt="">
-            <h3>Sampah organik</h3>
-            <p>Berasal dari makhluk hidup dan mudah terurai.</p>
-            <ul>
-              <li>Sisa makanan, kulit buah, ampas kopi dan teh</li>
-              <li>Daun kering, ranting, rumput</li>
-              <li>Kardus dan kertas yang kotor oleh makanan</li>
-            </ul>
-            <p><strong>Diolah menjadi:</strong> kompos atau pakan maggot/ternak.</p>
+
+        <!-- GALERI: tiap kartu adalah tautan ke jendela detail (#detail-...) -->
+        <div class="galeri-jenis">
+          <a class="kartu-gambar kartu-organik" href="#detail-organik">
+            <img src="images/organik.jpg" alt="Tumpukan sisa sayur dan kulit buah (sampah organik)" width="500" height="369">
+            <span class="label-gambar"><strong>Sampah Organik</strong><small>Klik untuk detail</small></span>
+          </a>
+          <a class="kartu-gambar kartu-anorganik" href="#detail-anorganik">
+            <img src="images/anorganik.jpg" alt="Tumpukan botol plastik dan kaleng minuman (sampah anorganik)" width="628" height="352">
+            <span class="label-gambar"><strong>Sampah Anorganik</strong><small>Klik untuk detail</small></span>
+          </a>
+          <a class="kartu-gambar kartu-b3" href="#detail-b3">
+            <img src="images/b3.jpg" alt="Tumpukan lampu bekas dan baterai (sampah B3)" width="900" height="675">
+            <span class="label-gambar"><strong>Sampah B3</strong><small>Klik untuk detail</small></span>
+          </a>
+        </div>
+
+        <!-- JENDELA DETAIL: tampil otomatis saat id-nya sedang dituju (:target) -->
+        <div class="modal" id="detail-organik" role="dialog" aria-labelledby="judul-organik">
+          <a class="modal-latar" href="#jenis" aria-label="Tutup"></a>
+          <article class="modal-isi kartu-organik">
+            <a class="modal-tutup" href="#jenis">Tutup &times;</a>
+            <img src="images/organik.jpg" alt="Tumpukan sisa sayur dan kulit buah" width="500" height="369">
+            <div class="modal-teks">
+              <h3 id="judul-organik">Sampah organik</h3>
+              <p>Berasal dari makhluk hidup dan mudah terurai.</p>
+              <ul>
+                <li>Sisa makanan, kulit buah, ampas kopi dan teh</li>
+                <li>Daun kering, ranting, rumput</li>
+                <li>Kardus dan kertas yang kotor oleh makanan</li>
+              </ul>
+              <p><strong>Diolah menjadi:</strong> kompos atau pakan maggot/ternak.</p>
+            </div>
           </article>
-          <article class="kartu kartu-anorganik">
-            <img class="ikon" src="images/icon-anorganik.svg" alt="">
-            <h3>Sampah anorganik</h3>
-            <p>Sulit terurai, tetapi banyak yang bisa didaur ulang.</p>
-            <ul>
-              <li>Botol dan kemasan plastik</li>
-              <li>Kaleng, logam, kaca</li>
-              <li>Kertas, kardus, dan karton yang bersih</li>
-            </ul>
-            <p><strong>Diolah menjadi:</strong> bahan daur ulang lewat bank sampah atau pengepul.</p>
+        </div>
+
+        <div class="modal" id="detail-anorganik" role="dialog" aria-labelledby="judul-anorganik">
+          <a class="modal-latar" href="#jenis" aria-label="Tutup"></a>
+          <article class="modal-isi kartu-anorganik">
+            <a class="modal-tutup" href="#jenis">Tutup &times;</a>
+            <img src="images/anorganik.jpg" alt="Tumpukan botol plastik dan kaleng minuman" width="628" height="352">
+            <div class="modal-teks">
+              <h3 id="judul-anorganik">Sampah anorganik</h3>
+              <p>Sulit terurai, tetapi banyak yang bisa didaur ulang.</p>
+              <ul>
+                <li>Botol dan kemasan plastik</li>
+                <li>Kaleng, logam, kaca</li>
+                <li>Kertas, kardus, dan karton yang bersih</li>
+              </ul>
+              <p><strong>Diolah menjadi:</strong> bahan daur ulang lewat bank sampah atau pengepul.</p>
+            </div>
           </article>
-          <article class="kartu kartu-b3">
-            <img class="ikon" src="images/icon-b3.svg" alt="">
-            <h3>Sampah B3</h3>
-            <p>Bahan berbahaya dan beracun. Tidak boleh dicampur dengan sampah lain.</p>
-            <ul>
-              <li>Baterai, lampu neon, aki</li>
-              <li>Obat kedaluwarsa, pestisida, cat, pelarut</li>
-              <li>Peralatan elektronik rusak</li>
-            </ul>
-            <p><strong>Diolah menjadi:</strong> disetor ke titik pengumpulan B3 atau fasilitas pengelola resmi.</p>
+        </div>
+
+        <div class="modal" id="detail-b3" role="dialog" aria-labelledby="judul-b3">
+          <a class="modal-latar" href="#jenis" aria-label="Tutup"></a>
+          <article class="modal-isi kartu-b3">
+            <a class="modal-tutup" href="#jenis">Tutup &times;</a>
+            <img src="images/b3.jpg" alt="Tumpukan lampu bekas dan baterai" width="900" height="675">
+            <div class="modal-teks">
+              <h3 id="judul-b3">Sampah B3</h3>
+              <p>Bahan berbahaya dan beracun. Tidak boleh dicampur dengan sampah lain.</p>
+              <ul>
+                <li>Baterai, lampu neon, aki</li>
+                <li>Obat kedaluwarsa, pestisida, cat, pelarut</li>
+                <li>Peralatan elektronik rusak</li>
+              </ul>
+              <p><strong>Diolah menjadi:</strong> disetor ke titik pengumpulan B3 atau fasilitas pengelola resmi.</p>
+            </div>
           </article>
         </div>
       </div>
