@@ -35,7 +35,7 @@ h1, h2, h3 { line-height: 1.2; color: var(--hijau-tua); margin: 0 0 .6em; }
 h1 { font-size: clamp(2rem, 5vw, 3.1rem); letter-spacing: -.02em; }
 h2 { font-size: clamp(1.5rem, 3.2vw, 2.1rem); }
 h3 { font-size: 1.2rem; }
-p { margin: 0 0 1em; max-width: 68ch; }
+p { margin: 0 0 1em; max-width: none; }
 .redup { color: var(--teks-redup); }
 
 
