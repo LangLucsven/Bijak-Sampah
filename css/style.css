@@ -103,8 +103,7 @@ section { padding: 3.5rem 0; }
 
 .fakta { background: var(--hijau-muda); border-left: 6px solid var(--hijau-daun); border-radius: 10px; padding: 1.1rem 1.3rem; margin: 0 0 1rem; }
 .fakta strong { color: var(--hijau-tua); }
-.catatan { font-size: .92rem; color: var(--teks-redup); }
-
+.catatan { font-size: .92rem; color: var(--teks-redup); margin-top: 1rem; }
 
 .langkah { list-style: none; counter-reset: langkah; padding: 0; margin: 0; display: grid; gap: 1rem; }
 .langkah li {
@@ -150,13 +149,22 @@ tr:last-child td { border-bottom: 0; }
 
 
 .batang { display: grid; gap: .85rem; }
-.baris-batang { display: grid; grid-template-columns: 150px 1fr 56px; align-items: center; gap: .75rem; }
+.baris-batang { display: grid; grid-template-columns: 210px 1fr 56px; align-items: center; gap: .75rem; }
 .jalur { background: #e8e3d1; border-radius: 999px; height: 22px; overflow: hidden; }
 .isi { height: 100%; width: calc(var(--nilai) * 1%); background: var(--hijau-daun); border-radius: 999px; }
 .isi.biru { background: var(--anorganik); }
 .isi.cokelat { background: #8a6b4a; }
+.isi.kuning { background: #c98a00; }
+.isi.ungu   { background: #7a4fa3; }
 .nilai { font-weight: 700; text-align: right; }
-
+.legenda { list-style: none; display: flex; flex-wrap: wrap; gap: .5rem 1.25rem; margin: 0 0 1rem; padding: 0; font-size: .95rem; }
+.legenda li { display: flex; align-items: center; gap: .5rem; }
+.kotak { width: 14px; height: 14px; border-radius: 4px; flex: none; }
+.kotak.hijau   { background: var(--hijau-daun); }
+.kotak.biru    { background: var(--anorganik); }
+.kotak.cokelat { background: #8a6b4a; }
+.kotak.kuning  { background: #c98a00; }
+.kotak.ungu    { background: #7a4fa3; }
 
 .garis-waktu { display: flex; flex-wrap: wrap; gap: 1rem; }
 .garis-waktu > div { flex: 1 1 180px; background: var(--putih); border: 1px solid var(--garis); border-radius: 12px; padding: 1rem 1.2rem; }
