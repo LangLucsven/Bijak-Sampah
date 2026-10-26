@@ -11,10 +11,10 @@ Kelompok 1
 
 | No | Nama | NIM | Tugas |
 |----|------|-----|-------|
-| 1 | [I Gede Dalem Putrayana] | [2515091008] | Struktur HTML Beranda dan Edukasi |
-| 2 | [I Gede Galang Yogista] | [2515091087] | CSS, layout, media queries |
-| 3 | [Ketut Agus Sugiantara] | [2515091052] | Konten Panduan dan Artikel, riset sumber |
-| 4 | [I Komang Tri Adnyana] | [2515091039] | GitHub, README, pengujian responsif |
+| 1 | I Gede Dalem Putrayana | 2515091008 | Struktur HTML Beranda dan Edukasi |
+| 2 | Ketut Agus Sugiantara | 2515091052 | CSS, layout, media queries |
+| 3 | I Komang Tri Adnyana | 25150910539 | Konten Panduan dan Artikel, riset sumber |
+| 4 | I Gede Galang Yogista | 2515091087 | GitHub, README, pengujian responsif |
 
 ## Deskripsi Website
 
