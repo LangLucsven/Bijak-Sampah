@@ -131,10 +131,15 @@ bijak-sampah/
 
 ## Referensi
 
-- Kementerian LHK. Sistem Informasi Pengelolaan Sampah Nasional (SIPSN). sipsn.menlhk.go.id
+- Kementerian Lingkungan Hidup, Sistem Informasi Kinerja Pengelolaan Sampah Nasional (https://sampahnasional.kemenlh.go.id)
 - UU No. 18 Tahun 2008 tentang Pengelolaan Sampah
 - Perpres No. 97 Tahun 2017 tentang Jakstranas Pengelolaan Sampah Rumah Tangga
 - Pergub Bali No. 47 Tahun 2019 tentang Pengelolaan Sampah Berbasis Sumber
 - United Nations. Sustainable Development Goals. sdgs.un.org/goals
 - Jambeck, J. R. dkk. (2015). Plastic waste inputs from land into the ocean. *Science*, 347(6223)
 - Aset gambar: seluruh SVG dibuat sendiri oleh kelompok. Font memakai font sistem.
+- Ardiansyah, A., dan Yudantara, I. G. A. P. (2023). Analisis Penerapan Laporan Keuangan Berdasarkan Standar Akuntansi Keuangan Entitas Mikro, Kecil dan Menengah (EMKM) pada Bank Sampah Galang Panji (https://ejournal.undiksha.ac.id/index.php/JJAKUN/article/view/67599)
+- Oviantari, M. V., Martiningsih, N. W., dan Parwata, I. P. (2021). Biopori sebagai Penanggulangan Banjir dan Bak Komposter di Banjar Kembang Sari Desa Panji (https://conference.undiksha.ac.id/senadimas/2021/prosiding/file/286.pdf)
+- Sampah organik: Waste4Change, "Cara Jitu Mengelola Sampah Organik Anti Ribet dan Kotor" (https://waste4change.com/blog/cara-jitu-mengelola-sampah-organik-anti-ribet-dan-kotor/)
+- Sampah anorganik: Gramedia Literasi, "Contoh Sampah Anorganik" (https://www.gramedia.com/literasi/contoh-sampah-anorganik/)
+- Sampah B3: Arah Environmental, "Apa Itu Limbah B3 dan Jenis-Jenis Limbah B3". (https://arahenvironmental.com/apa-itu-limbah-b3-dan-jenis-jenis-limbah-b3-yang-sering-kita-abaikan/)
