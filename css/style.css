@@ -65,7 +65,7 @@ section { padding: 3.5rem 0; }
 .menu { display: flex; gap: .25rem; list-style: none; margin: 0; padding: 0; }
 .menu a { display: block; padding: .8rem .85rem; border-radius: 8px; color: #e8f1de; text-decoration: none; font-weight: 500;  border-bottom: 1px solid rgba(255,255,225,.2);}
 .menu a:hover { background: rgba(255,255,255,.12); color: var(--putih); }
-.menu a[aria-current="page"] { background: var(--krem); color: var(--hijau-tua); font-weight: 700; border-bottom-color:#000000; }
+.menu a[aria-current="page"] { background: var(--krem); color: var(--hijau-tua); font-weight: 700; }
 
 .cek-menu { position: absolute; opacity: 0; pointer-events: none; }
 .tombol-menu { display: none; cursor: pointer; padding: .5rem .75rem; border: 2px solid #9cc47a; border-radius: 8px; color: var(--putih); font-weight: 600; }
