@@ -173,6 +173,12 @@ tr:last-child td { border-bottom: 0; }
 
 .studi { border-left: 6px solid var(--hijau-daun); padding-left: 1.2rem; }
 
+#studi-kasus .studi p {
+  max-width: none;
+  text-align: justify;
+  hyphens: auto;
+}
+
 .anggota { display: flex; align-items: center; gap: 1rem; }
 .avatar { width: 52px; height: 52px; flex: none; border-radius: 50%; background: var(--hijau-muda); color: var(--hijau-tua); display: grid; place-items: center; font-weight: 800; }
 
