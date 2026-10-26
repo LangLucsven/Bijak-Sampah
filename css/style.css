@@ -27,7 +27,7 @@ body {
 
 img { max-width: 100%; height: auto; display: block; }
 a { color: var(--hijau-tua); }
-a:hover { color: var(--hijau-daun); }
+p a:hover { color: var(--hijau-daun); }
 :focus-visible { outline: 3px solid #e0a500; outline-offset: 2px; }
 
 
