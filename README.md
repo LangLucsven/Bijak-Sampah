@@ -7,7 +7,7 @@ Proyek UTS Mata Kuliah Pemrograman Web: *Responsive Educational Website*.
 
 ## Anggota Kelompok
 
-Kelompok [nomor], [nama kampus / program studi]
+Kelompok 1
 
 | No | Nama | NIM | Tugas |
 |----|------|-----|-------|
