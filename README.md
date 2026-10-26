@@ -106,7 +106,7 @@ Gambar dibatasi `max-width: 100%`. Tabel lebar dibungkus `overflow-x: auto` sehi
 ## Struktur Folder
 
 ```
-bijak-sampah/
+Bijak-Sampah/
 |-- index.html
 |-- edukasi.html
 |-- panduan.html
@@ -115,12 +115,15 @@ bijak-sampah/
 |-- css/
 |   `-- style.css
 |-- images/
+|   |-- anorganik.jpg
 |   |-- logo.svg
 |   |-- hero.svg
 |   |-- icon-organik.svg
 |   |-- icon-anorganik.svg
 |   |-- icon-b3.svg
-|   `-- kompos.svg
+|   |-- kompos.svg
+|   |-- organik.jpg
+|   |-- sampah b3.jpg.jpeg
 `-- README.md
 ```
 
