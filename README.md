@@ -129,8 +129,8 @@ Bijak-Sampah/
 
 ## Website dan Repository
 
-- Website: https://[username].github.io/bijak-sampah/
-- Repository: https://github.com/[username]/bijak-sampah
+- Website: https://langlucsven.github.io/Bijak-Sampah/
+- Repository: https://github.com/LangLucsven/Bijak-Sampah.git
 
 ## Referensi
 
