@@ -80,8 +80,6 @@ section { padding: 3.5rem 0; }
 .tombol-utama:hover { background: #ffd84d; color: #2b2400; }
 .tombol-garis { border-color: var(--krem); color: var(--krem); }
 .tombol-garis:hover { background: rgba(255,255,255,.14); color: var(--putih); }
-.tombol-hijau { background: var(--hijau-tua); color: var(--putih); }
-.tombol-hijau:hover { background: var(--hijau-daun); color: var(--putih); }
 .aksi { display: flex; flex-wrap: wrap; gap: .75rem; margin-top: 1.5rem; }
 
 
@@ -174,7 +172,6 @@ tr:last-child td { border-bottom: 0; }
 .studi { border-left: 6px solid var(--hijau-daun); padding-left: 1.2rem; }
 
 #studi-kasus .studi p {
-  max-width: none;
   text-align: justify;
   hyphens: auto;
 }
@@ -265,6 +262,5 @@ tr:last-child td { border-bottom: 0; }
   .galeri-jenis { grid-template-columns: 1fr; }
   .kartu-gambar { aspect-ratio: 16 / 10; }
   .modal { align-items: flex-start; padding: .75rem; }
-  .modal:target { align-items: flex-start; }
   .modal-isi img { height: 180px; }
 }
